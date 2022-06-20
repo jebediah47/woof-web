@@ -6,7 +6,7 @@
   } from '@fortawesome/free-solid-svg-icons/index.es';
 </script>
 
-<div class="py-12 bg-slate-800">
+<div class="py-12 bg-gray-900">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center">
       <h2 class="text-indigo-600 font-semibold tracking-wide uppercase text-lg">
