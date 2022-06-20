@@ -29,7 +29,6 @@
         <li><a>Download</a></li>
       </ul>
     </div>
-    <!-- svelte-ignore a11y-missing-attribute -->
     <!-- svelte-ignore a11y-invalid-attribute -->
     <a href="#" class="btn btn-ghost normal-case text-xl">Woof OS</a>
   </div>
