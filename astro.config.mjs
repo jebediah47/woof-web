@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { defineConfig } from "astro/config";
 
 import svelte from "@astrojs/svelte";
