@@ -7,9 +7,8 @@
         Woof OS is a simple Arch based distribution for users who want a quick
         Arch installation with a comfortable, functional eye candy experience.
       </p>
-      <a
-        href="https://discord.gg/p6qNduqwWM"
-        class="btn btn-secondary sm:btn-sm md:btn-md lg:btn-lg">Discord</a
+      <button class="btn btn-secondary sm:btn-sm md:btn-md lg:btn-lg"
+        >Download</button
       >
     </div>
   </div>
