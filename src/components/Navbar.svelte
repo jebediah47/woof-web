@@ -27,6 +27,8 @@
         <li><a>Features</a></li>
         <!-- svelte-ignore a11y-missing-attribute -->
         <li><a>Download</a></li>
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <li><a>Discord</a></li>
       </ul>
     </div>
     <!-- svelte-ignore a11y-invalid-attribute -->
@@ -40,6 +42,7 @@
       <li><a>Features</a></li>
       <!-- svelte-ignore a11y-missing-attribute -->
       <li><a>Download</a></li>
+      <li><a href="https://discord.gg/p6qNduqwWM">Discord</a></li>
     </ul>
   </div>
   <div class="navbar-end">
