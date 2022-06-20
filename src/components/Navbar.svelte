@@ -22,31 +22,11 @@
         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
       >
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a>Item 1</a></li>
-        <li tabindex="0">
-          <!-- svelte-ignore a11y-missing-attribute -->
-          <a class="justify-between">
-            Parent
-            <svg
-              class="fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              ><path
-                d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-              /></svg
-            >
-          </a>
-          <ul class="p-2">
-            <!-- svelte-ignore a11y-missing-attribute -->
-            <li><a>Submenu 1</a></li>
-            <!-- svelte-ignore a11y-missing-attribute -->
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
+        <li><a>About</a></li>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a>Item 3</a></li>
+        <li><a>Features</a></li>
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <li><a>Download</a></li>
       </ul>
     </div>
     <!-- svelte-ignore a11y-missing-attribute -->
