@@ -1,13 +1,15 @@
 ---
-import Downloads from "../components/Downloads.svelte";
-import Features from "../components/Features.svelte";
+import Navbar from "../components/Navbar.svelte";
 import Footer from "../components/Footer.svelte";
 import Layout from "../layouts/Layout.astro";
-import Splash from "./Splash.astro";
+import Downloads from "./Downloads.svelte";
+import Features from "./Features.svelte";
+import Hero from "./Hero.svelte"
 ---
 <Layout title="Woof OS">
-    <Splash />
-    <Features />
-    <Downloads />
-    <Footer />
+    <Navbar client:load/>
+    <Hero client:load/>
+    <Features client:load/>
+    <Downloads client:visible/>
+    <Footer client:visible/>
 </Layout>
