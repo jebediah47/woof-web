@@ -1,4 +1,4 @@
-<div class="navbar bg-neutral text-neutral-content">
+<div class="navbar bg-neutral text-neutral-content" id="navbar__element">
   <div class="navbar-start">
     <div class="dropdown">
       <!-- svelte-ignore a11y-label-has-associated-control -->
@@ -22,26 +22,81 @@
         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
       >
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a>About</a></li>
+        <li>
+          <a
+            on:click={() =>
+              document.getElementById('hero__bg--img').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center',
+                inline: 'center'
+              })}>About</a
+          >
+        </li>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a>Features</a></li>
+        <li>
+          <a
+            on:click={() =>
+              document.getElementById('features__element').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center',
+                inline: 'center'
+              })}>Features</a
+          >
+        </li>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a>Download</a></li>
+        <li>
+          <a
+            on:click={() =>
+              document.getElementById('downloads__element').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center',
+                inline: 'center'
+              })}>Download</a
+          >
+        </li>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a>Discord</a></li>
+        <li><a href="https://discord.gg/p6qNduqwWM">Discord</a></li>
       </ul>
     </div>
-    <!-- svelte-ignore a11y-invalid-attribute -->
-    <a href="#" class="btn btn-ghost normal-case text-xl">Woof OS</a>
+    <!-- svelte-ignore a11y-missing-attribute -->
+    <a class="btn btn-ghost normal-case text-xl">Woof OS</a>
   </div>
+  <!-- Desktop Navbar -->
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
       <!-- svelte-ignore a11y-missing-attribute -->
-      <li><a>About</a></li>
+      <li>
+        <a
+          on:click={() =>
+            document.getElementById('hero__bg--img').scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+              inline: 'center'
+            })}>About</a
+        >
+      </li>
       <!-- svelte-ignore a11y-missing-attribute -->
-      <li><a>Features</a></li>
+      <li>
+        <a
+          on:click={() =>
+            document.getElementById('features__element').scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+              inline: 'center'
+            })}>Features</a
+        >
+      </li>
       <!-- svelte-ignore a11y-missing-attribute -->
-      <li><a>Download</a></li>
+      <li>
+        <a
+          on:click={() =>
+            document.getElementById('downloads__element').scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+              inline: 'center'
+            })}>Download</a
+        >
+      </li>
       <li><a href="https://discord.gg/p6qNduqwWM">Discord</a></li>
     </ul>
   </div>
