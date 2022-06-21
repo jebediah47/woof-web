@@ -7,8 +7,14 @@
         Woof OS is a simple Arch based distribution for users who want a quick
         Arch installation with a comfortable, functional eye candy experience.
       </p>
-      <button class="btn btn-secondary sm:btn-sm md:btn-md lg:btn-lg"
-        >Download</button
+      <button
+        on:click={() =>
+          document.getElementById('downloads__element').scrollIntoView({
+            behavior: 'smooth',
+            block: 'center',
+            inline: 'center'
+          })}
+        class="btn btn-secondary sm:btn-sm md:btn-md lg:btn-lg">Download</button
       >
     </div>
   </div>
