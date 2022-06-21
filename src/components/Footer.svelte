@@ -8,7 +8,7 @@
       Woof OS organization Ltd. <br />Providing you with Woof OS since 2021
     </p>
     <p class="text-slate-300">
-      Copyright © {copyrightYear} - All right reserved
+      Copyright © {copyrightYear} - Christian Llupo and WoofOS team. All rights reserved.
     </p>
   </div>
 </footer>
