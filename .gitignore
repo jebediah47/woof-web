@@ -21,3 +21,6 @@ pnpm-debug.log*
 
 # Pnpm lock
 *pnpm-lock.yaml
+
+# IntelliJ/WebStorm proejct configs
+*.idea
